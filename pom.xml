@@ -5,12 +5,12 @@
 	<groupId>com.github.kevinsawicki</groupId>
 	<artifactId>github-maven-example</artifactId>
 	<version>0.1-SNAPSHOT</version>
-	<name>GitHub Maven Plugin Example</name>
+	<name>GitHub Maven Plugin Example Myfirstrepo</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
-	<url>https://github.com/pipo7/MyPlace.git</url>
+	<url>https://github.com/pipo7/Myfirstrepo.git</url>
 
 	<issueManagement>
-		<url>https://github.com/pipo7/MyPlace.git/issues</url>
+		<url>https://github.com/pipo7/Myfirstrepo.git/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/pipo7/MyPlace.git</url>
-		<connection>scm:git:git@github.com:pipo7/MyPlace.git</connection>
-		<developerConnection>git@github.com:pipo7/MyPlace.git</developerConnection>
+		<url>https://github.com/pipo7/Myfirstrepo.git</url>
+		<connection>scm:git:git@github.com:pipo7/Myfirstrepo.git</connection>
+		<developerConnection>git@github.com:pipo7/Myfirstrepo.git</developerConnection>
 	</scm>
 
 
@@ -151,9 +151,9 @@
                 <include>**/*</include>
                 </includes>
                 <!-- github repo name -->
-                <repositoryName>MyPlace</repositoryName>
+                <repositoryName>Myfirstrepo</repositoryName>
                 <!-- github username -->
-                <repositoryOwner>Pipo7</repositoryOwner>
+                <repositoryOwner>Myfirstrepo</repositoryOwner>
           </configuration>
           <executions>
               <execution>
