@@ -21,7 +21,13 @@ pipeline {
             }
         }
 
-
+      stage ('package Stage') {
+            steps {
+                 
+                    sh 'mvn clean package'
+                
+            }
+        }
         stage ('Deployment Stage') {
             steps {
                  
