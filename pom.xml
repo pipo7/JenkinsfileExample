@@ -132,9 +132,10 @@
 				</executions>
 			</plugin>
 			<plugin>
-	 <groupId>maven</groupId>
-         <artifactId>maven-site-plugin</artifactId>
-         <version>1.7.2</version>
+	<groupId>com.github.github</groupId>
+	<artifactId>site-maven-plugin</artifactId>
+        <version>0.12</version>
+				
          <configuration>
 	      <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound> 
               <!-- git commit message -->
