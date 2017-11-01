@@ -177,7 +177,6 @@
     </repository>
 </distributionManagement>
 
-<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound> 
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
