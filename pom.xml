@@ -156,7 +156,7 @@
                 <!-- github repo name -->
                 <repositoryName>Myfirstrepo</repositoryName>
                 <!-- github username -->
-                <repositoryOwner>Myfirstrepo</repositoryOwner>
+                <repositoryOwner>Pipo7</repositoryOwner>
           </configuration>
           <executions>
               <execution>
