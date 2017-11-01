@@ -136,6 +136,7 @@
          <artifactId>maven-site-plugin</artifactId>
          <version>1.7.2</version>
          <configuration>
+	      <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound> 
               <!-- git commit message -->
               <message>Maven artifacts for ${project.version}</message>
               <!-- disable webpage processing -->
@@ -147,8 +148,7 @@
               <!-- If you remove this then the old artifact will be removed and new 
                one will replace. But with the merge tag you can just release by changing 
                                                 the version -->
-               <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>  
-		 <merge>true</merge>
+              <merge>true</merge>
               <includes>
                 <include>**/*</include>
                 </includes>
@@ -177,7 +177,7 @@
     </repository>
 </distributionManagement>
 
-
+<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound> 
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
